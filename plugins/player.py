@@ -1020,7 +1020,7 @@ async def yt_play_list(client, m: Message):
                 markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📢 Join My Update Channel", url='https://t.me/subin_works')
+                            InlineKeyboardButton("📢 Join My Update Channel", url='https://t.me/SCProjectsLK')
                         ],
                         [
                             InlineKeyboardButton("🔄 Try Again", url=f"https://telegram.me/GetPlaylistBot?start=subinps_{m.from_user.id}")
@@ -1322,8 +1322,8 @@ async def not_chat(_, m: Message):
             InlineKeyboardButton('🆘 Help & Commands 🆘', callback_data='help'),       
         ],
         [
-            InlineKeyboardButton('👨‍💻 Developer', url='https://t.me/c/1417456571/580'),
-            InlineKeyboardButton('Channel 📢', url='https://t.me/c/1481808444/131')
+            InlineKeyboardButton('👨‍💻 Developer', url='https://t.me/SCProjectsLK'),
+            InlineKeyboardButton('Channel 📢', url='https://t.me/SCProjectsLK')
         ]
         ]
     k=await m.reply("<b>You can't use this bot in this group, for that you have to make your own bot from the [Soure Code 👈](https://github.com/LushaiMusic/VCMusicPlayer) below.</b>", disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(buttons))
